@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import bird from '../utils/bird.webp';
-import logo from '../utils/logo.png';
+import bird from '../public/utils/bird.webp';
+import logo from '../public/utils/logo.png';
 import Link from 'next/link';
 
 const Nav = () => {

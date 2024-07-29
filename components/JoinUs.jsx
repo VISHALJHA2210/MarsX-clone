@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import JoinUsImage from '../utils/joinus.gif'
+import JoinUsImage from '../public/utils/joinus.gif'
 
 const JoinUs = () => {
   return (

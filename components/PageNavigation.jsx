@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import codeImg from '../utils/code.png';
-import noCodeImg from '../utils/nocode.jpeg';
-import microappsImg from '../utils/microapps.jpeg';
+import codeImg from '../public/utils/code.png';
+import noCodeImg from '../public/utils/nocode.jpeg';
+import microappsImg from '../public/utils/microapps.jpeg';
 
 const PageNavigation = () => {
 

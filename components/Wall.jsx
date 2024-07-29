@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import WallofLove from '../utils/walloflove.jpeg'
+import WallofLove from '../public/utils/walloflove.jpeg'
 import CommentCard from './CommentCard'
-import pf1 from '../utils/pf1.jpeg'
-import pf2 from '../utils/pf2.jpeg'
-import pf3 from '../utils/pf3.jpeg'
-import pf4 from '../utils/pf4.jpeg'
+import pf1 from '../public/utils/pf1.jpeg'
+import pf2 from '../public/utils/pf2.jpeg'
+import pf3 from '../public/utils/pf3.jpeg'
+import pf4 from '../public/utils/pf4.jpeg'
 
 const Wall = () => {
   return (

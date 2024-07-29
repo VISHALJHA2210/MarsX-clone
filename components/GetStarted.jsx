@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import GetStartedBox from '../utils/getstartedbox.png'
+import getstartedbox from '../public/utils/getstartedbox.png'
 
 const GetStarted = () => {
   return (
@@ -25,7 +25,7 @@ const GetStarted = () => {
                 style={{ width: "17rem", height: "17rem" }}
                 >
                     <Image
-                        src={GetStartedBox}
+                        src={getstartedbox}
                         layout="intrinsic"
                         width={350}
                         height={350}
