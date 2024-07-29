@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import WallofLove from '../utils/WallofLove.jpeg'
+import WallofLove from '../utils/walloflove.jpeg'
 import CommentCard from './CommentCard'
 import pf1 from '../utils/pf1.jpeg'
 import pf2 from '../utils/pf2.jpeg'

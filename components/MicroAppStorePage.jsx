@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MicroAppBox from "../utils/MicroAppBox.png";
+import MicroAppBox from "../utils/microappbox.png";
 import Card from "./Card";
 
 const MicroAppStorePage = () => {

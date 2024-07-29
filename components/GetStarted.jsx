@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import GetStartedBox from '../utils/GetStartedBox.png'
+import GetStartedBox from '../utils/getstartedbox.png'
 
 const GetStarted = () => {
   return (
