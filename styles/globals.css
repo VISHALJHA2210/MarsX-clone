@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+.flex-center{
+    @apply flex items-center justify-center;
+}
+.flex-between{
+    @apply flex items-center justify-between;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    60% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+.shake-on-reload {
+    animation: shake 0.5s ease-in-out;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
+
+.icon-transition {
+    transition: transform 0.2s ease;
+}
+  
+.rotate-45 {
+    transform: rotate(-45deg);
+}
